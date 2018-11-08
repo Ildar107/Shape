@@ -8,7 +8,7 @@ namespace Shapes
 {
     public class Circle : IShape
     {
-        private readonly double radius;
+        public readonly double radius;
 
         public double Area => Math.PI * radius * radius;
 

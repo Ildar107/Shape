@@ -8,9 +8,9 @@ namespace Shapes
 {
     public class Triangle : IShape
     {
-        private readonly double AB = 0;
-        private readonly double BC = 0;
-        private readonly double AC = 0;
+        public readonly double AB = 0;
+        public readonly double BC = 0;
+        public readonly double AC = 0;
 
         public bool IsTriangleRectangular => Math.Pow(AC,2) == Math.Pow(AB, 2) + Math.Pow(BC, 2) || Math.Pow(AB, 2) == Math.Pow(AC, 2) + Math.Pow(BC, 2) ||
              Math.Pow(BC, 2) == Math.Pow(AC, 2) + Math.Pow(AB, 2);
